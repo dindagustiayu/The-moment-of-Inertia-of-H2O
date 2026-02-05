@@ -20,7 +20,7 @@ where the __diagonal__ elements (called "moment of inertia") are similar to the 
     $$I_{yy}=\sum_{i}m_{i}(x_{i}^{2}+z_{i}^{2}),$$
     $$I_{zz}=\sum_{i}m_{i}(x_{i}^{2}+y_{i}^{2});$$
 </p>
-but the __off-diagobal__ elements (called "products of inertia") must also be included:
+but the __off-diagonal__ elements (called "products of inertia") must also be included:
 <p align='center'>
     $$I_{xy}= I_{yx} = -\sum_{i}m_{i}x_{i}y_{i},$$
     $$I_{xz}= I_{zx} = -\sum_{i}m_{i}x_{i}z_{i},$$
@@ -45,7 +45,7 @@ Based on the values of $I_{A},\;I_{B}, and\;I_{C}$, molecules may be classified 
 
 - $I_{A}\neq I_{B}\neq I_{C}$ : __Asymmetric top molecule__.$CHCl$.
 
-Furtheremore, in spectroscopy, it is conventional to define the _rotational constants_, 
+Furthermore, in spectroscopy, it is conventional to define the _rotational constants_, 
 <p align='center'>
     $$A=\frac{h}{8\pi^{2}cI_{A}},$$
     $$A=\frac{h}{8\pi^{2}cI_{B}},$$
