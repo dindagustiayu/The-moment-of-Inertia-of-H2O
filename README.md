@@ -22,12 +22,13 @@ where the __diagonal__ elements (called "moment of inertia") are similar to the 
 </p>
 but the __off-diagobal__ elements (called "products of inertia") must also be included:
 <p align='center'>
-    $$I_{xy}= I_{yx} = \sum_{i}m_{i}x_{i}y_{i},$$
-    $$I_{xz}= I_{zx} = \sum_{i}m_{i}x_{i}z_{i},$$
-    $$I_{yz}= I_{zy} = \sum_{i}m_{i}y_{i}z_{i}.$$
+    $$I_{xy}= I_{yx} = -\sum_{i}m_{i}x_{i}y_{i},$$
+    $$I_{xz}= I_{zx} = -\sum_{i}m_{i}x_{i}z_{i},$$
+    $$I_{yz}= I_{zy} = -\sum_{i}m_{i}y_{i}z_{i}.$$
 </p>
-In the case of a rotation molecule, the index $i$ runs over the atoms in the molecule.
-Thus, a molecule has three principal moments of inertia, usually designated as $I_{A},\;I_{B},\;I_{C}$. The three principal moments of inertia may be taken as,
+
+In the case of a rotation molecule, the index __i__ runs over the atoms in the molecule.
+Thus, a molecule has three principal moments of inertia, usually designated as $I_{A}, I_{B}, I_{C}$. The three principal moments of inertia may be taken as,
 - $I_{A}$ for rotation about the bond axis
 - $I_{B}$ for end-over-end rotation in the plane of the paper
 - $I_{C}$ for end-over-end rotation at right angles to the plane of the paper. 
